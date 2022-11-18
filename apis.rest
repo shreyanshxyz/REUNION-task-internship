@@ -3,22 +3,22 @@
 
 
 // 1. follow
-POST https://reunion-backend-task.herokuapp.com/api/follow/13
+POST http://localhost:8000/api/follow/13
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwibmFtZSI6Impha2UiLCJpYXQiOjE2NDI5NTYwOTUsImV4cCI6MTY0Mjk1OTY5NX0.5ybHMFu6N2BB5ZHemb4McHpL2yysfeXA932qiss8C0c
 
 ###
 // 2. unfollow
-POST https://reunion-backend-task.herokuapp.com/api/unfollow/10
+POST http://localhost:8000/api/unfollow/10
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwibmFtZSI6Impha2UiLCJpYXQiOjE2NDI5NDc0NDQsImV4cCI6MTY0Mjk1MTA0NH0.O7xS9ZSufmJTbRpyOB6enNPaS0PiRJlEhfBwpbZrUIA
 
 ###
 // 3. user info
-GET https://reunion-backend-task.herokuapp.com/api/user
+GET http://localhost:8000/api/user
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwibmFtZSI6Impha2UiLCJpYXQiOjE2NDI5NDc0NDQsImV4cCI6MTY0Mjk1MTA0NH0.O7xS9ZSufmJTbRpyOB6enNPaS0PiRJlEhfBwpbZrUIA
 
 ###
 // 4. post a post
-POST https://reunion-backend-task.herokuapp.com/api/posts
+POST http://localhost:8000/api/posts
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsIm5hbWUiOiJhZG1pbiIsImlhdCI6MTY0Mjk0NjcyMywiZXhwIjoxNjQyOTUwMzIzfQ.O-UjC1PJhot4yk3Bm3xhQSM1ndUyt_GPWUslDrU9mTU
 
@@ -29,22 +29,22 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsIm5hbWUiO
 
 ###
 // 5. deleting a post
-DELETE https://reunion-backend-task.herokuapp.com/api/posts/22
+DELETE http://localhost:8000/api/posts/22
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwibmFtZSI6Impha2UiLCJpYXQiOjE2NDI5NDc0NDQsImV4cCI6MTY0Mjk1MTA0NH0.O7xS9ZSufmJTbRpyOB6enNPaS0PiRJlEhfBwpbZrUIA
 
 ###
 // 6. like the post
-POST https://reunion-backend-task.herokuapp.com/api/like/22
+POST http://localhost:8000/api/like/22
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsIm5hbWUiOiJhZG1pbiIsImlhdCI6MTY0Mjk0NjcyMywiZXhwIjoxNjQyOTUwMzIzfQ.O-UjC1PJhot4yk3Bm3xhQSM1ndUyt_GPWUslDrU9mTU
 
 ###
 // 7. unlike the post
-POST https://reunion-backend-task.herokuapp.com/api/unlike/12
+POST http://localhost:8000/api/unlike/12
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwibmFtZSI6InBpbSIsImlhdCI6MTY0MjkzODk2MywiZXhwIjoxNjQyOTQyNTYzfQ.YGP2kWz9hVJiIGkoWYbNzkLPI8s11CR1KPvGolROp5o
 
 ###
 // 8. comment
-POST https://reunion-backend-task.herokuapp.com/api/comment/22
+POST http://localhost:8000/api/comment/22
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwibmFtZSI6InBpbSIsImlhdCI6MTY0Mjk0NjAwMywiZXhwIjoxNjQyOTQ5NjAzfQ.pXE7JXpRFlMiQ_ZnwBL_vZ9KAzW68OE-9BffH_pUbEQ
 
@@ -54,17 +54,17 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwibmFtZSI6I
 
 ###
 // 9. get a post
-GET https://reunion-backend-task.herokuapp.com/api/posts/22
+GET http://localhost:8000/api/posts/22
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwibmFtZSI6Impha2UiLCJpYXQiOjE2NDI5NTA2MzUsImV4cCI6MTY0Mjk1NDIzNX0.iUZVO8pXvptt4O8aa_Een5xHEJhB1Zk6EmP8jIma7KE
 
 ###
 // 10. all posts
-GET https://reunion-backend-task.herokuapp.com/api/all_posts/
+GET http://localhost:8000/api/all_posts/
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsIm5hbWUiOiJhZG1pbiIsImlhdCI6MTY0Mjk1MTA3OCwiZXhwIjoxNjQyOTU0Njc4fQ.N6wOjdJ3R84FvNHaHD_dQUBhfpSMTcynLz3809IlqVk
 
 ###
 // 11. login
-POST https://reunion-backend-task .herokuapp.com/api/authenticate
+POST http://localhost:8000/api/authenticate
 Content-Type: application/json
 
 {
@@ -74,7 +74,7 @@ Content-Type: application/json
 
 ###
 
-POST https://reunion-backend-task .herokuapp.com/api/authenticate
+POST http://localhost:8000/api/authenticate
 Content-Type: application/json
 
 {

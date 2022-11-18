@@ -8,7 +8,7 @@ Build APIs for a social media platform in either NodeJS or Python. The API shoul
 
 #### Submission
 
-API link - https://reunion-backend-task.herokuapp.com/
+API link - http://localhost:8000/
 
 ---
 
@@ -37,7 +37,7 @@ send request to /api/authenticate to receive the token
 
 eg
 
-> GET https://reunion-backend-task.herokuapp.com/api/all_posts/
+> GET http://localhost:8000/api/all_posts/
 
 > Authorization: Bearer < Enter the token received >
 
